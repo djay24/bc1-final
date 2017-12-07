@@ -1,0 +1,93 @@
+body {
+    background: #000033;
+    height: 100%;
+    width: 100%;
+}
+/*** start nav section ***/
+.nav-bar {
+    height: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #00001a;
+    box-shadow: 4px 4px 4px #888888;
+}
+.logo {
+    float: left;
+    height: 100%;
+}
+.nav-list {
+    float: right;
+    list-style: none;
+    height: 100%;
+}
+.list-item {
+    float: left;
+    margin-right: 15px;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 3px;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar:hover {
+    height: 75px;
+    visibility: visible;
+    opacity: 1;
+}
+.nav-bar:hover .list-item {
+    visibility: visible;
+    opacity: 1;
+    transition: .25s ease-in-out;
+}
+/*** end nav section ***/
+
+/*** side nav ***/
+
+.side-nav {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    width: 150px;
+    background: #e6e600;
+    text-align: left;
+    color: black;
+    box-shadow: 4px 4px 4px #888888;
+    padding: 5px;
+}
+
+/*** end side nav ***/
+
+/*** start body section ***/
+.main-section {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  background: #ccccff;
+  padding: 4px;
+}
+.main-section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*** end body section ***/
+
+/*** start footer ***/
+.footer{
+    height: 150px;
+    background: #00001a;
+    margin: 0;
+}
+.footer-section{
+    width: 33%;
+    float: left;
+    text-align: left;
+    color: white;
+    
+}
+/*** end footer ***/
